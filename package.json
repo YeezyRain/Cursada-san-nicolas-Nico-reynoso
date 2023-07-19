@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "node": "^20.4.0"
+    "node": "^20.4.0",
+    "xpress": "^2.4.6"
   }
 }
