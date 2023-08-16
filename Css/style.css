@@ -1,16 +1,19 @@
-.nitido {
-    color: aqua;
-    font-weight: 100;
+.ns-body {
     display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.ns-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.ns-carousel-inner {
     width: 50%;
     margin: 0 auto;
-    font-size: small;
 }
 
-.nitidoni {
-    background-color:aqua;
-}
-
-.Bordes {
-    border: 2;
+.ns-img-carousel {
+    height: 250px;
+    margin: 0 auto;
 }
