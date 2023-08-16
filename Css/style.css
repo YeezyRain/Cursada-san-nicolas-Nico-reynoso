@@ -17,3 +17,51 @@
     height: 250px;
     margin: 0 auto;
 }
+
+.card-div {
+    height: 170px;
+    flex: auto;
+
+}
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .subrayado {
+    text-decoration-line: underline;
+    color: yellow;
+  }
+
+  .flechita-color {
+    background-image: url(https://fontawesome.com/icons/arrow-right?f=classic&s=duotone&an=beat);
+  }
