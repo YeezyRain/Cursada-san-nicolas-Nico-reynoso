@@ -1,16 +1,21 @@
 console.log ("hola gente")
 
-fetch(url)
-.then(response => response.json)
-.then(data => {
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
 
-  let element = document.getElementById('elem')
-  element.innerHTML = `
-  <p>${data.name}</p>
-  <p>${data.order}</p>
-  <img src='${data.sprites.front_default}'/>
-  `; 
- 
-  console.log(data)
-}) 
-.catch(err=>console.log(err))
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Recuerda beber agua', 'success')
+  })
+}
