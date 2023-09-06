@@ -1,6 +1,7 @@
 .ns-body {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background-color: #24303c;
 
 }
 .ns-header {
@@ -64,4 +65,12 @@
 
   .flechita-color {
     background-image: url(https://fontawesome.com/icons/arrow-right?f=classic&s=duotone&an=beat);
+  }
+
+  .eda {
+    color: blue;
+  }
+
+  .ede {
+    color: yellow;
   }
