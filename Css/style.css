@@ -1,8 +1,9 @@
 .ns-body {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: #24303c;
-
+    background-image: url('/photos/Bombonera.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .ns-header {
     grid-column-start: 1;
@@ -68,9 +69,21 @@
   }
 
   .eda {
-    color: blue;
+    background-color: blue;
   }
 
   .ede {
     color: yellow;
+  }
+
+  .edi {
+    color: blue;
+  }
+
+  .cav {
+    background-color: blue;
+  }
+
+  .ani {
+    background-color: yellow;
   }
